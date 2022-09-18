@@ -1,0 +1,174 @@
+body
+{
+    background: linear-gradient(white, aquamarine);
+}
+
+
+
+
+
+
+
+
+h2
+{
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 3px 3px 3px rgb(4, 100, 190);
+}
+
+
+
+/* Qu'est ce que Volvorii? */
+
+#what
+{
+    border: inset 5px;
+    text-align: center;
+    width: 30%;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+
+
+#what:hover
+{
+    border: outset 5px;
+    background-color: #2f00af;
+    scale: 110%;
+    margin-top: 5px;
+    box-shadow: 5px 5px 15px rgb(87, 87, 87);
+}
+
+
+
+#what h2
+{
+    color: wheat;
+}
+
+
+#what p
+{
+    margin-top: 15px;
+    color: wheat;
+}
+
+
+iframe
+{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+}
+
+
+
+
+
+
+/* Concrètement, comment ça fonctionne? */
+
+
+#how
+{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#how h2
+{
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    background-color: #1880ff;
+}
+
+
+
+#explication
+{
+    display: flex;
+}
+
+
+#text
+{
+    padding: 10px;
+    height: 180px;
+    overflow: auto;
+    background: linear-gradient(rgb(248, 123, 234), orange);
+}
+
+
+#image_pres
+{
+    display: flex;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#explication:hover #image_pres
+{
+    height: 300px;
+    transition: 200ms;
+}
+
+
+#explication:hover #text
+{
+    height: 280px;
+    transition: 200ms;
+}
+
+
+/* Pourquoi acheter Volvorii? */
+
+
+#why
+{
+    border: inset 5px;
+    text-align: center;
+    width: 70%;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    padding: 15px;
+}
+
+
+#why:hover
+{
+    border: outset 5px;
+    background-color: #1880ff;
+}
+
+
+
+#why h2
+{
+    color: wheat;
+}
+
+
+#why p
+{
+    margin-top: 15px;
+    color: wheat;
+}
+
+
+
+#presentation
+{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}

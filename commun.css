@@ -1,0 +1,229 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+h1
+{
+    font-family: 'Oswald', sans-serif;
+    color: rgb(237, 179, 245);
+    text-shadow: 2px 2px rgb(147, 122, 122);
+}
+
+
+
+p
+{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+}
+
+
+
+/* header commun à toutes les pages */
+
+
+
+header
+{
+    background-image: url("Images/background_header.png");
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+
+.logo
+{
+    margin-top: 2px;
+    margin-left: 250px;
+    cursor: pointer;
+    border: solid 4px transparent;
+    outline: solid 4px pink;
+    height: 132px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+}
+
+
+.logo:hover
+{
+    border: solid 4px pink;
+}
+
+
+
+.GdTitre
+{
+    text-align: center;
+    margin-right: 550px;
+}
+
+
+
+
+
+/* Menu pour se déplacer de page en page, commun à toutes les pages */
+
+
+#menu
+{
+    display: flex;
+    list-style-type: none;
+    background: linear-gradient(90deg, rgb(194, 115, 240), rgb(85, 0, 255));
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+    padding: 3px;
+    height: 50px;
+}
+
+
+
+#menu li
+{
+    border: inset 3px;
+    padding: 8px;
+}
+
+
+#menu a
+{
+    text-decoration: none;
+    color: white;
+}
+
+
+#menu li:hover
+{
+    border: outset 3px;
+    text-shadow: 4px 4px 3px rgb(255, 24, 247);
+    background-color: #4e21c8;
+    scale: 110%;
+    margin: 3px;
+    box-shadow: 4px 4px 15px rgb(136, 99, 168);
+}
+
+
+
+
+
+
+
+
+
+main
+{
+
+    height: fit-content;
+    background: linear-gradient(#4a10ec, rgb(50, 232, 219));
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+
+
+
+
+/* footer commun à toutes les pages */
+
+footer
+{
+    height: fit-content;
+    width: 100%;
+}
+
+
+
+#liste
+{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    gap: 20px; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: aquamarine;
+}
+
+
+
+
+
+#liste .logo
+{
+    margin-left: 30px;
+}
+
+
+
+#Adresse
+{
+    width: 33%;
+    border-right: solid;
+}
+
+
+
+#Contact
+{
+    width: 33%;
+    border-right: solid;
+}
+
+
+
+#Horaires
+{
+    width: 33%;
+}
+
+
+
+#icon_content
+{
+    width: 100%; 
+    background: rgb(84, 84, 251);
+    height: fit-content;
+}
+
+
+
+#icon
+{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+#icon p
+{
+    color: white;
+}
+
+
+
+#icon img
+{
+    height: 35px;
+    width: auto;
+}
+
+
+#icon img:hover
+{
+    rotate: 25deg;
+    transition-duration: 300ms;
+}

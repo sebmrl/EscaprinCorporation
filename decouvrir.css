@@ -1,0 +1,74 @@
+
+
+
+
+#QR
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+
+
+#QR:hover
+{
+    background-color: rgb(181, 124, 234);
+    box-shadow: 5px 5px 20px grey;
+}
+
+
+#QR:hover img
+{
+    box-shadow: 10px 10px 18px grey;
+}
+
+
+/* Ce qui est utilisé ici est pris sur internet, mais je voulais me faire un petit kiff */
+
+#QR h2
+{
+    height: 50px;
+    text-align: center;
+    padding: 15px;
+    color: green;
+    animation: clignote 1.5s linear infinite;
+}
+
+
+
+@keyframes clignote
+{  
+50% { opacity: 30%; 
+    font-size: 30px;
+
+}
+}
+
+
+.fleche
+{
+    text-align: center;
+    margin-left: 70px;
+    letter-spacing: 80px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+
+main img
+{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: solid 8px;
+}
+
+
+
+#zonning
+{
+    margin-top: 50px;
+    text-align: center;
+}
